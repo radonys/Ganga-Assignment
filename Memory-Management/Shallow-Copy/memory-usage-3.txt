@@ -1,0 +1,110 @@
+Filename: shallow-release_reference-3.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+     5     38.5 MiB     38.5 MiB   @profile
+     6                             def shallowcopy(i,simple_object):
+     7                             
+     8     39.9 MiB      1.4 MiB   	simple_object.append(copy.copy(simple_object[i-1]))
+     9                             
+    10     39.9 MiB      0.0 MiB   	return simple_object
+
+
+Filename: shallow-release_reference-3.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+     5     39.9 MiB     39.9 MiB   @profile
+     6                             def shallowcopy(i,simple_object):
+     7                             
+     8     40.7 MiB      0.8 MiB   	simple_object.append(copy.copy(simple_object[i-1]))
+     9                             
+    10     40.7 MiB      0.0 MiB   	return simple_object
+
+
+Filename: shallow-release_reference-3.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+     5     40.7 MiB     40.7 MiB   @profile
+     6                             def shallowcopy(i,simple_object):
+     7                             
+     8     41.4 MiB      0.8 MiB   	simple_object.append(copy.copy(simple_object[i-1]))
+     9                             
+    10     41.4 MiB      0.0 MiB   	return simple_object
+
+
+Filename: shallow-release_reference-3.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+     5     41.4 MiB     41.4 MiB   @profile
+     6                             def shallowcopy(i,simple_object):
+     7                             
+     8     42.2 MiB      0.8 MiB   	simple_object.append(copy.copy(simple_object[i-1]))
+     9                             
+    10     42.2 MiB      0.0 MiB   	return simple_object
+
+
+Filename: shallow-release_reference-3.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    12     42.2 MiB     42.2 MiB   @profile
+    13                             def remove_reference(simple_object):
+    14                             
+    15     41.4 MiB      0.0 MiB   	del simple_object[0]
+    16                             
+    17     41.4 MiB      0.0 MiB   	return simple_object
+
+
+Filename: shallow-release_reference-3.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    12     41.4 MiB     41.4 MiB   @profile
+    13                             def remove_reference(simple_object):
+    14                             
+    15     41.4 MiB      0.0 MiB   	del simple_object[0]
+    16                             
+    17     41.4 MiB      0.0 MiB   	return simple_object
+
+
+Filename: shallow-release_reference-3.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    12     41.4 MiB     41.4 MiB   @profile
+    13                             def remove_reference(simple_object):
+    14                             
+    15     41.4 MiB      0.0 MiB   	del simple_object[0]
+    16                             
+    17     41.4 MiB      0.0 MiB   	return simple_object
+
+
+Filename: shallow-release_reference-3.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    12     41.4 MiB     41.4 MiB   @profile
+    13                             def remove_reference(simple_object):
+    14                             
+    15     41.4 MiB      0.0 MiB   	del simple_object[0]
+    16                             
+    17     41.4 MiB      0.0 MiB   	return simple_object
+
+
+Filename: shallow-release_reference-3.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    12     41.4 MiB     41.4 MiB   @profile
+    13                             def remove_reference(simple_object):
+    14                             
+    15     34.7 MiB      0.0 MiB   	del simple_object[0]
+    16                             
+    17     34.7 MiB      0.0 MiB   	return simple_object
+
+
+mprof: Sampling memory every 0.1s
+running as a Python program...

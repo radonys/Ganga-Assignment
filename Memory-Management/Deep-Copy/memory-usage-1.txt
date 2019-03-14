@@ -1,0 +1,50 @@
+Filename: deepcopy/deepcopy_delay-1.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+     6     38.5 MiB     38.5 MiB   @profile
+     7                             def deepcopy(i,simple_object):
+     8                             
+     9     57.9 MiB     19.4 MiB   	simple_object.append(copy.deepcopy(simple_object[i-1]))
+    10                             
+    11     57.9 MiB      0.0 MiB   	return simple_object
+
+
+Filename: deepcopy/deepcopy_delay-1.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+     6     57.9 MiB     57.9 MiB   @profile
+     7                             def deepcopy(i,simple_object):
+     8                             
+     9     68.9 MiB     11.0 MiB   	simple_object.append(copy.deepcopy(simple_object[i-1]))
+    10                             
+    11     68.9 MiB      0.0 MiB   	return simple_object
+
+
+Filename: deepcopy/deepcopy_delay-1.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+     6     68.9 MiB     68.9 MiB   @profile
+     7                             def deepcopy(i,simple_object):
+     8                             
+     9     79.8 MiB     10.8 MiB   	simple_object.append(copy.deepcopy(simple_object[i-1]))
+    10                             
+    11     79.8 MiB      0.0 MiB   	return simple_object
+
+
+Filename: deepcopy/deepcopy_delay-1.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+     6     79.9 MiB     79.9 MiB   @profile
+     7                             def deepcopy(i,simple_object):
+     8                             
+     9     91.0 MiB     11.2 MiB   	simple_object.append(copy.deepcopy(simple_object[i-1]))
+    10                             
+    11     91.0 MiB      0.0 MiB   	return simple_object
+
+
+mprof: Sampling memory every 0.1s
+running as a Python program...
