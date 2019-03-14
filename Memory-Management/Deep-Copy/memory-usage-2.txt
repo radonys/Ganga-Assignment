@@ -1,0 +1,110 @@
+Filename: deepcopy/deep-release_reference-2.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+     5     38.5 MiB     38.5 MiB   @profile
+     6                             def deepcopy(i,simple_object):
+     7                             
+     8     57.9 MiB     19.4 MiB   	simple_object.append(copy.deepcopy(simple_object[i-1]))
+     9                             
+    10     57.9 MiB      0.0 MiB   	return simple_object
+
+
+Filename: deepcopy/deep-release_reference-2.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+     5     57.9 MiB     57.9 MiB   @profile
+     6                             def deepcopy(i,simple_object):
+     7                             
+     8     68.7 MiB     10.8 MiB   	simple_object.append(copy.deepcopy(simple_object[i-1]))
+     9                             
+    10     68.7 MiB      0.0 MiB   	return simple_object
+
+
+Filename: deepcopy/deep-release_reference-2.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+     5     68.8 MiB     68.8 MiB   @profile
+     6                             def deepcopy(i,simple_object):
+     7                             
+     8     79.5 MiB     10.8 MiB   	simple_object.append(copy.deepcopy(simple_object[i-1]))
+     9                             
+    10     79.5 MiB      0.0 MiB   	return simple_object
+
+
+Filename: deepcopy/deep-release_reference-2.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+     5     79.6 MiB     79.6 MiB   @profile
+     6                             def deepcopy(i,simple_object):
+     7                             
+     8     90.7 MiB     11.1 MiB   	simple_object.append(copy.deepcopy(simple_object[i-1]))
+     9                             
+    10     90.7 MiB      0.0 MiB   	return simple_object
+
+
+Filename: deepcopy/deep-release_reference-2.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    12     90.7 MiB     90.7 MiB   @profile
+    13                             def remove_reference(simple_object):
+    14                             
+    15     83.2 MiB      0.0 MiB   	del simple_object[0]
+    16                             
+    17     83.2 MiB      0.0 MiB   	return simple_object
+
+
+Filename: deepcopy/deep-release_reference-2.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    12     83.2 MiB     83.2 MiB   @profile
+    13                             def remove_reference(simple_object):
+    14                             
+    15     75.7 MiB      0.0 MiB   	del simple_object[0]
+    16                             
+    17     75.7 MiB      0.0 MiB   	return simple_object
+
+
+Filename: deepcopy/deep-release_reference-2.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    12     75.7 MiB     75.7 MiB   @profile
+    13                             def remove_reference(simple_object):
+    14                             
+    15     68.2 MiB      0.0 MiB   	del simple_object[0]
+    16                             
+    17     68.2 MiB      0.0 MiB   	return simple_object
+
+
+Filename: deepcopy/deep-release_reference-2.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    12     68.2 MiB     68.2 MiB   @profile
+    13                             def remove_reference(simple_object):
+    14                             
+    15     60.6 MiB      0.0 MiB   	del simple_object[0]
+    16                             
+    17     60.6 MiB      0.0 MiB   	return simple_object
+
+
+Filename: deepcopy/deep-release_reference-2.py
+
+Line #    Mem usage    Increment   Line Contents
+================================================
+    12     60.6 MiB     60.6 MiB   @profile
+    13                             def remove_reference(simple_object):
+    14                             
+    15     53.8 MiB      0.0 MiB   	del simple_object[0]
+    16                             
+    17     53.8 MiB      0.0 MiB   	return simple_object
+
+
+mprof: Sampling memory every 0.1s
+running as a Python program...
