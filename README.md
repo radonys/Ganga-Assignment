@@ -38,3 +38,34 @@ The [Ganga_File_Split.ipynb](https://github.com/radonys/Ganga-Assignment/blob/ma
 ___Note___: I tried placing the code in a single Python file but while execution the __merger__ failed due to the job being in __submitted__ mode. Even after adding _time-delay_ nothing worked. Hence, commands need to be put manually in the Ganga Shell.
 
 The file ___stdout___ in the current directory will contain the needed sum.
+
+## Memory Management
+
+For Memory Management, 4 tasks were given, out of which 3 were performed with all the requirements fulfilled. Please find the description of the performed experiments below:
+
+1) There are two folders: [Deep Copy](https://github.com/radonys/Ganga-Assignment/tree/master/Memory-Management/Deep-Copy) and [Shallow Copy](https://github.com/radonys/Ganga-Assignment/tree/master/Memory-Management/Deep-Copy).
+2) In Deep Copy folder, there are two python files:
+    a) [deepcopy_delay-1.py](https://github.com/radonys/Ganga-Assignment/blob/master/Memory-Management/Deep-Copy/deepcopy_delay-1.py) executes the first task of performing deep copy of previous simple objects and monitors the memory usage.
+    b) [deep-release_reference-2.py](https://github.com/radonys/Ganga-Assignment/blob/master/Memory-Management/Deep-Copy/deep-release_reference-2.py) executes the second task of releasing the reference of created objects one by one and observe the memory usage.
+3) In Shallow Copy folder, there is one python file:
+    - [shallow-release_reference-3.py](https://github.com/radonys/Ganga-Assignment/blob/master/Memory-Management/Shallow-Copy/shallow-release_reference-3.py) executes the same tasks as in the deep-copy case but using __shallow__ copy.
+
+### Note
+
+I checked for implementing the algorithm for using shallow-copy to mimic deep-copy (as described by Ulrik sir's in the email). I got an idea as well which is described below:
+
+___Shallow Copy creates a new object and has only references from original object for the sub-objects within it. This can be shown below. To use shallow-copy and make it mimic like deep-copy, we have to make shallow-copies of the available sub-objects as well.___
+
+## Results
+
+1) Deep-Copy of Objects
+
+![deep-copy-1](https://github.com/radonys/Ganga-Assignment/blob/master/Memory-Management/Deep-Copy/memory-usage-1.png "Deep Copy (Task 1) Memory Management")
+
+2) Release Reference - Deep Copy
+
+![deep-copy-2](https://github.com/radonys/Ganga-Assignment/blob/master/Memory-Management/Deep-Copy/memory-usage-2.png "Release Reference (Task 2) Memory Management")
+
+3) Shallow Copy
+
+![shallow-copy-3](https://github.com/radonys/Ganga-Assignment/blob/master/Memory-Management/Shallow-Copy/memory-usage-3.png "Shallow Copy (Task 3) Memory Management")
