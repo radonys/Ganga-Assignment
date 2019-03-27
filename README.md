@@ -45,8 +45,8 @@ For Memory Management, 4 tasks were given, out of which 3 were performed with al
 
 1) There are two folders: [Deep Copy](https://github.com/radonys/Ganga-Assignment/tree/master/Memory-Management/Deep-Copy) and [Shallow Copy](https://github.com/radonys/Ganga-Assignment/tree/master/Memory-Management/Deep-Copy).
 2) In Deep Copy folder, there are two python files:
-    a) [deepcopy_delay-1.py](https://github.com/radonys/Ganga-Assignment/blob/master/Memory-Management/Deep-Copy/deepcopy_delay-1.py) executes the first task of performing deep copy of previous simple objects and monitors the memory usage.
-    b) [deep-release_reference-2.py](https://github.com/radonys/Ganga-Assignment/blob/master/Memory-Management/Deep-Copy/deep-release_reference-2.py) executes the second task of releasing the reference of created objects one by one and observe the memory usage.
+    - [deepcopy_delay-1.py](https://github.com/radonys/Ganga-Assignment/blob/master/Memory-Management/Deep-Copy/deepcopy_delay-1.py) executes the first task of performing deep copy of previous simple objects and monitors the memory usage.
+    - [deep-release_reference-2.py](https://github.com/radonys/Ganga-Assignment/blob/master/Memory-Management/Deep-Copy/deep-release_reference-2.py) executes the second task of releasing the reference of created objects one by one and observe the memory usage.
 3) In Shallow Copy folder, there is one python file:
     - [shallow-release_reference-3.py](https://github.com/radonys/Ganga-Assignment/blob/master/Memory-Management/Shallow-Copy/shallow-release_reference-3.py) executes the same tasks as in the deep-copy case but using __shallow__ copy.
 
